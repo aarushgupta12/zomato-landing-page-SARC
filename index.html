@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="zomato_styles.css" >
+    <link rel="stylesheet" href="media_queries.css">
+  </head>
+
+  <body>
+    <div class="hero">
+      <a href="#" class="bars3"> <!-- # means abhi link nahi add kiya -->
+        <i class="fa-solid fa-bars"></i>
+      </a>
+      <header class="header">
+        <div class="header-left-side">
+          <a href="#">Get the App</a>
+        </div>
+        <div class="header-right-side">
+          <a href="#">Investor Relations</a>
+          <a href="#">Add restaurant</a>
+          <a href="#">Log in</a>
+          <a href="#">Sign up</a>
+        </div>
+      </header>
+
+      <div>
+        <img
+          src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+          alt="zomato"
+          class="zomato-head"
+        >
+      </div>
+
+      <div>
+        <h1 class="discover">
+          Discover the best food & drinks in
+          <span class="place">Bengaluru</span>
+        </h1>
+      </div>
+        <!-- input bar ka code hai yeh -->
+      <div class="search-bar">
+        <div class="search-place">
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" placeholder="Bengaluru" class="loc-input" />
+          <i class="fa-solid fa-caret-down" style="color: #000000"></i>
+          <h2 class="vertical-line">|</h2>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            class="search-item"
+            placeholder="Search for a restaurant, cuisine or a dish">
+        </div>
+      </div>
+          <!-- chhote screens ke liye yeh wala display hoga -->
+      <div class="search-bar-below-924px">
+        <div class="search-place">
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" placeholder="Bengaluru" class="loc-input" />
+          <i class="fa-solid fa-caret-down" style="color: #000000"></i>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            class="search-item"
+            placeholder="Search for a restaurant, cuisine or a dish"
+          >
+        </div>
+      </div>
+    </div>
+      <!-- niche wale images ka code-->
+    <div class="bottom">
+      <div class="img-1">
+        <div class="img-1-top"></div>
+        <p class="img-head">Order Online</p>
+        <p class="img-desc">Stay home and order to your doorstep</p>
+      </div>
+      <div class="img-1">
+        <div class="img-2-top"></div>
+        <p class="img-head">Dining</p>
+        <p class="img-desc">View the city's favourite dining venues</p>
+      </div>
+      <div class="img-1">
+        <div class="img-3-top"></div>
+        <p class="img-head">Live Events</p>
+        <p class="img-desc">Discover India's best events & concerts</p>
+      </div>
+    </div>
+  </body>
+</html>

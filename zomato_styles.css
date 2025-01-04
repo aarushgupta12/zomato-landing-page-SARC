@@ -1,0 +1,254 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* upar wala portion */
+.hero {
+    background-image: url("zomato-hero-img.jpg");
+    background-size: cover;
+    padding: 10px 10px;
+    background-position: center;
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.zomato-head {
+    width: 300px;
+    height: 60px;
+    display: block;
+    margin: 100px auto 50px;
+}
+
+.header a {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right-side {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-right-side, .header-left-side {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-side a {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.discover {
+    color: white;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+}
+
+/* search bar wala portion */
+.place {
+    font-weight: bold;
+}
+
+.fa-solid.fa-location-dot {
+    color: #f58788;
+    background-color: white;
+    padding-bottom: 3px;
+    padding: 14px;
+    font-size: 20.5px;
+    border: none;
+}
+
+.loc-input {
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    border: none;
+}
+
+.search-item {
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    padding: 0 10px; 
+    font-family: 'Arial', sans-serif;
+}
+
+.fa-solid.fa-magnifying-glass, .fa-solid.fa-caret-down {
+    background-color: white;
+    padding-bottom: 3px;
+    padding: 13px;
+    font-size: 20.5px;
+}
+
+.vertical-line {
+    background-color: white;
+    font-weight: lighter;
+    color: #c8cacc;
+    font-size: 34px; 
+    margin: 0 auto; 
+    padding: 0;
+}
+
+.search-bar-below-924px {
+    display: none;
+}
+.search-bar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 15px;
+    gap: 10px;
+    max-width: 100%;
+    width: 700px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.search-bar i {
+    font-size: 20px; 
+    margin: 0px; 
+    padding: 8px;
+}
+
+.search-place, .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* img ka border and pic */
+.img-1-top {
+    width: 350px;
+    height: 170px;
+    border: 1px solid #edebeb;
+    background-image: url("img1.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-1 {
+    width: 350px;
+    height: 240px;
+    border: 1px solid #edebeb;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.img-2-top {
+    width: 350px;
+    height: 170px;
+    border: 1px solid #edebeb;
+    background-image: url("img2.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-3-top {
+    width: 350px;
+    height: 170px;
+    border: 1px solid #edebeb;
+    background-image: url("img3.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-head {
+    font-size: 22px;
+    margin: 10px auto 3px 10px;
+    text-align: start;
+    padding-left: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #3b3a3a;
+}
+
+.img-desc {
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 10px;
+    text-align: start;
+    padding-left: 10px;
+    font-family: 'Arial', sans-serif;
+    color: #666464;
+    font-weight: lighter;
+}
+
+/* jab hover karenge to thoda sa bada hona hai */
+.img-1:hover {
+    width: 385px;
+    height: 264px;
+    border: 1px solid #edebeb;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.img-1-top:hover {
+    width: 385px;
+    height: 187px;
+    border: 1px solid #edebeb;
+    background-image: url("img1.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-2-top:hover {
+    width: 385px;
+    height: 187px;
+    border: 1px solid #edebeb;
+    background-image: url("img2.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-3-top:hover {
+    width: 385px;
+    height: 187px;
+    border: 1px solid #edebeb;
+    background-image: url("img3.jpg");
+    background-size: cover; 
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+/* yeh menu bar hai chhote screens ke liye */
+.bars3 {
+    color: white;
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    margin-right: auto;
+}
