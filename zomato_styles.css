@@ -205,13 +205,14 @@ html, body {
 }
 
 /* jab hover karenge to thoda sa bada hona hai */
-.img-1:hover {
+/* .img-1:hover {
     width: 385px;
     height: 264px;
     border: 1px solid #edebeb;
     margin-top: 10px;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
+    transform: scale(1.1);
 }
 
 .img-1-top:hover {
