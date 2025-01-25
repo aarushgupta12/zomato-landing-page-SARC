@@ -215,34 +215,37 @@ html, body {
     transform: scale(1.1);
 }
 
-/*.img-1-top:hover {
-    width: 385px;
+.img-1-top:hover {
+    /*width: 385px;
     height: 187px;
     border: 1px solid #edebeb;
     background-image: url("img1.jpg");
     background-size: cover; 
     background-position: center;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;*/
+    transform: scale(1.1);
 }
 
 .img-2-top:hover {
-    width: 385px;
+    /*width: 385px;
     height: 187px;
     border: 1px solid #edebeb;
     background-image: url("img2.jpg");
     background-size: cover; 
     background-position: center;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;*/
+    transform: scale(1.1);
 }
 
 .img-3-top:hover {
-    width: 385px;
+    /*width: 385px;
     height: 187px;
     border: 1px solid #edebeb;
     background-image: url("img3.jpg");
     background-size: cover; 
     background-position: center;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;*/
+    transform: scale(1.1);
 }
 
 yeh menu bar hai chhote screens ke liye */
