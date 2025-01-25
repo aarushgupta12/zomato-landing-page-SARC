@@ -205,8 +205,8 @@ html, body {
 }
 
 /* jab hover karenge to thoda sa bada hona hai */
-/* .img-1:hover {
-    width: 385px;
+.img-1:hover {
+    /*width: 385px;
     height: 264px;
     border: 1px solid #edebeb;
     margin-top: 10px;
@@ -215,7 +215,7 @@ html, body {
     transform: scale(1.1);
 }
 
-.img-1-top:hover {
+/*.img-1-top:hover {
     width: 385px;
     height: 187px;
     border: 1px solid #edebeb;
@@ -245,7 +245,7 @@ html, body {
     border-radius: 10px 10px 0 0;
 }
 
-/* yeh menu bar hai chhote screens ke liye */
+yeh menu bar hai chhote screens ke liye */
 .bars3 {
     color: white;
     display: none;
